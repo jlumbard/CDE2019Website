@@ -6,4 +6,8 @@ i{
     height: 2em;
     width: 2em;
     background-color: transparent !important;
+    color: white;
+}
+.btn{
+    color: white !important;
 }

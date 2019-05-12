@@ -1,0 +1,13 @@
+.language{
+    color: lightgrey !important;
+
+}
+.activeLanguage{
+    color: black !important;
+}
+.navbar{
+    background-color: rgba(0,0,0,0) !important;
+}
+.dropdown-toggle{
+    font-size: 1.3em;
+}

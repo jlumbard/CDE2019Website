@@ -1,0 +1,9 @@
+i{
+    padding: .4em;
+    border-radius: 0.5em;
+}
+.btn-floating{
+    height: 2em;
+    width: 2em;
+    background-color: transparent !important;
+}

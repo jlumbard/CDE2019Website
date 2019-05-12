@@ -1,0 +1,26 @@
+.blackFooter{
+    /*I struggle with the below color. Maybe the same purple as the top of main page?*/
+    background-color: rgba(153,93,129,0.9) !important;
+    height: 20vh;
+    font-size: 0.8em;
+}
+.FooterColumns{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+    height:calc(20vh-3em);
+}
+.FooterLogo{
+    height:2.5em;
+    width: 2.5em;
+}
+.FooterMedia{
+    display: inline;
+}
+.SocMed{
+    margin-bottom: 0.1em;
+}
+h6{
+    margin-top: 0.5rem !important;
+}

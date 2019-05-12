@@ -11,3 +11,11 @@ i{
 .btn{
     color: white !important;
 }
+.SocMedContainer{
+    display: inline-block;
+    padding-left: 0.35em !important;
+    padding-right: 0.35em !important;
+}
+.container{
+    width: inherit !important;
+}

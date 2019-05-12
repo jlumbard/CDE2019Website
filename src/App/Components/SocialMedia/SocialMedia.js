@@ -6,7 +6,7 @@ const SocialMedia = () => {
     //All of this is from here:
     //https://mdbootstrap.com/docs/react/components/buttons-social/
   return (
-    <MDBContainer>
+    <MDBContainer className="SocMedContainer">
       <MDBBtn href = "https://www.facebook.com/groups/1363389940346917/" size="lg" tag="a" floating social="fb">
         <MDBIcon fab icon="facebook-f" />
       </MDBBtn>

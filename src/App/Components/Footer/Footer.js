@@ -12,13 +12,13 @@ class Footer extends React.Component{
             <Row className="blackFooter">
                 <Col className="FooterColumns">
                 <div className="FooterMedia">
-                <img className="FooterLogo" src={Logo}/>
+                <img alt="" className="FooterLogo" src={Logo}/>
                 <SocialMedia className="SocMed"/>
                 </div>
                 <h6>Conference on Diveristy in Engineering, 2019.</h6>
                 <h6><a href="mailto:cde2019chairs@gmail.com">cde2019chairs@gmail.com</a></h6>
                 </Col>
-                <Col>
+                <Col className="FooterColumns">
                 </Col>
             </Row>
         );

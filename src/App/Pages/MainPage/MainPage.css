@@ -7,27 +7,21 @@ a:hover{
 }
 
 .Cell1{
-    height: 50vh;
     background-image: url(../../img/UC.jpg);
   }
   .Cell2{
-    height: 50vh;
     background-image: url(../../img/CDE1.jpg);
   }
   .Cell3{
-    height: 50vh;
     background-image: url(../../img/CDE1.jpg);
   }
   .Cell4{
-    height: 50vh;
     background-image: url(../../img/UC.jpg);
   }
   .Cell5{
-    height: 50vh;
     background-image: url(../../img/CDE1.jpg);
   }
   .Cell6{
-    height: 50vh;
     background-image: url(../../img/CDE1.jpg);
   }
   
@@ -80,9 +74,14 @@ a:hover{
     background-repeat: no-repeat;
     background-position: center;
     transition: all 1s linear;
+    height:100%;
+    width:100%;
+    max-width: 100%;
+    max-height: 100%;;
   }
   .Cell:hover{
     transform: scale(1.1);
+
   }
   .CellCover{
     width: 100%;
@@ -112,4 +111,11 @@ hr{
     margin-left: 0px !important;
     margin-right:0px !important;
     max-width: 100% !important;
+  }
+  .col{
+    padding-left:0px !important;
+    padding-right:0px !important;
+    height:50vh;
+    max-height: 50vh;
+    overflow: hidden;/*DONT DELETE THIS*/
   }

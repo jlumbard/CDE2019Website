@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import NaturalNavbar from '../App/Components/NaturalNavbar/NaturalNavbar.js';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {Route, Switch } from "react-router-dom";
 import Sponsors from './Pages/Sponsors/Sponsors.js'
 import MainPage from  './Pages/MainPage/MainPage.js';
 import Footer from './Components/Footer/Footer.js'
@@ -31,8 +31,8 @@ class App extends React.Component {
 
      {/*I'm like 90% sure the below is bad practice(race conditions?) but I don't know how React works lol */}
       <NaturalNavbar language={this.state.language}>
-        <a className={this.state.language === "English" ? "activeLanguage" : "language"} onClick={() => this.changeLanguage("English")}>English</a>
-        <a className={this.state.language === "French" ? "activeLanguage" : "language"} onClick={() => this.changeLanguage("French")}>French</a>
+        <a href="/" className={this.state.language === "English" ? "activeLanguage" : "language"} onClick={() => this.changeLanguage("English")}>English</a>
+        <a href="/ "className={this.state.language === "French" ? "activeLanguage" : "language"} onClick={() => this.changeLanguage("French")}>French</a>
       </NaturalNavbar>
 
         <Switch>

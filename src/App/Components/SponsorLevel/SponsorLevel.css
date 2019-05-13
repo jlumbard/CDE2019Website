@@ -1,0 +1,14 @@
+.SponsorCol{
+    background-color:darkslategray !important;
+    height: 8vh;
+    text-align: center;
+    
+}
+.SponsorCol h2{
+    color: white;
+    font-size: 1.2em !important;
+}
+
+.SponsorCol div{
+    margin-top: 0.5em;
+}

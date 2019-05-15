@@ -2,9 +2,10 @@ import React from 'react';
 import './App.css';
 import NaturalNavbar from '../App/Components/NaturalNavbar/NaturalNavbar.js';
 import {Route, Switch } from "react-router-dom";
-import Sponsors from './Pages/Sponsors/Sponsors.js'
+import Sponsors from './Pages/Sponsors/Sponsors.js';
 import MainPage from  './Pages/MainPage/MainPage.js';
-import Footer from './Components/Footer/Footer.js'
+import Footer from './Components/Footer/Footer.js';
+import Contact from './Pages/Contact/Contact.js';
 
 class App extends React.Component {
   constructor(props){
@@ -43,6 +44,11 @@ class App extends React.Component {
           <Route 
           path="/Sponsors/" 
           render={props => <Sponsors language = {this.state.language}/>}
+          />
+
+          <Route
+          path="/Contact/"
+          render={props => <Contact language = {this.state.language}/>}
           />
         </Switch>
 

@@ -111,7 +111,8 @@ hr{
     margin-right:0px !important;
     max-width: 100% !important;
   }
-  .col{
+  .SponsorsPage .col{
     overflow: hidden;
-    height: 22vh !important;
+    height: 28vh !important;
   }
+  /*I have some kind of strange dream of these cells color wiping to just the name on hover, leaving the logo in full color.*/

@@ -1,0 +1,18 @@
+.memberPhoto{
+    height:70%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15%;
+    margin-bottom: 5%;
+    transition: all 1s linear;
+
+}
+.memberPhoto:hover{
+    transform: scale(1.1);
+}
+
+.contactRow .col{
+    height: 50vh;
+    text-align: center;
+}

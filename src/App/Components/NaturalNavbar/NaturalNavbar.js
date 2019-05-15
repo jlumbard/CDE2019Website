@@ -16,8 +16,8 @@ class NaturalNavbar extends React.Component{
         { <img
             alt=""
             src={logo}
-            width="50"
-            height="50"
+            width="35em"
+            height="35em"
             className="d-inline-block align-top"
         /> }
         </Navbar.Brand>
@@ -29,8 +29,8 @@ class NaturalNavbar extends React.Component{
             <NavDropdown.Item href="#action/3.4">Doubletree by Hilton</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item className="red" href="/contact"> {this.props.language === "English" ? "Contact Us" : "Contactez-Nous"}</NavDropdown.Item>
-            <NavDropdown.Item href="/history">{this.props.language === "English" ? "History" : "Histoire"}</NavDropdown.Item>
-            <NavDropdown.Item href="/team">{this.props.language === "English" ? "Our Team" : "L'Equipe"}</NavDropdown.Item>
+            <NavDropdown.Item href="/History">{this.props.language === "English" ? "History" : "Histoire"}</NavDropdown.Item>
+            <NavDropdown.Item href="/Contact">{this.props.language === "English" ? "Our Team" : "L'Equipe"}</NavDropdown.Item>
             <NavDropdown.Divider />
             {this.props.children}
         </NavDropdown>

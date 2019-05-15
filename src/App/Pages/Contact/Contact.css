@@ -1,0 +1,8 @@
+.ContactPage{
+    background-image: url('../../img/CDE1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.ContactCover{
+    background-color:  rgba(153,93,129,0.9);
+}

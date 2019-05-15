@@ -37,7 +37,9 @@ class MainPage extends React.Component{
           <Completionist/>
           </Countdown>
           </h2>
+          <div className="SocMedDummy">
           <SocialMedia/>
+          </div>
           </HomeCell>
         </Row>
 

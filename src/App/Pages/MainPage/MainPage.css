@@ -64,6 +64,8 @@ a:hover{
   }
   h2{
     font-size: 0.7em !important;
+    max-width: 80%;
+    display: inline-block;
   }
   .TextContainer{
     height: 10%;
@@ -73,7 +75,7 @@ a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    transition: all 1s linear;
+    transition: all 0.7s linear;
     height:100%;
     width:100%;
     max-width: 100%;
@@ -118,4 +120,7 @@ hr{
     height:50vh;
     max-height: 50vh;
     overflow: hidden;/*DONT DELETE THIS*/
+  }
+  .SocMedDummy{
+    display: block;
   }

@@ -2,6 +2,7 @@
     background-color:darkslategray !important;
     height: 8vh;
     text-align: center;
+    border: 1px solid rgba(255,255,255,0.5);
     
 }
 .SponsorCol h2{

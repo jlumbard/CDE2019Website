@@ -7,6 +7,7 @@
 }
 .navbar{
     background-color: rgba(0,0,0,0) !important;
+    padding: 0.4em !important;
 }
 .dropdown-toggle{
     font-size: 1.3em;

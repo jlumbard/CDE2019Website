@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/jlumbard/CDE2019Website/src/precache-manifest.067ffadd3ca9e1baea889515d1d8b9b3.js"
+  "/jlumbard/CDE2019Website/src/precache-manifest.113215aaf7e3bc5f2118c8a09d953518.js"
 );
 
 self.addEventListener('message', (event) => {

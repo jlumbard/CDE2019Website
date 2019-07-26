@@ -2,7 +2,7 @@
   "name": "cde2019website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jlumbard.github.io/jlumbard/CDE2019Website/",
+  "homepage": "https://jlumbard.github.io/jlumbard/CDE2019Website/src/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "mdbreact": "^4.13.0",

@@ -6,6 +6,7 @@ import HomeCell from '../../Components/HomeCell/HomeCell';
 import Countdown from 'react-countdown-now';
 import SocialMedia from '../../Components/SocialMedia/SocialMedia.js';
 import {Link} from "react-router-dom";
+import FAQ from '../../Components/FAQ/FAQ.js'
 
 
 const Completionist = () => <span> Begins Now</span>
@@ -103,7 +104,22 @@ class MainPage extends React.Component{
           </h2>
           </HomeCell>
         </Row>
-      </Container>
+        <div className="FAQs">
+        <div className="FAQCover">
+        <FAQ question="What is the purpose of the conference?" answer="Please reference our history page to find out"> 
+        </FAQ>
+        <FAQ question="Who made the website?" answer="Brock Lumbard of course" >
+        </FAQ>
+        <FAQ question="Who made the website?" answer="Brock Lumbard of course" >
+        </FAQ>
+        <FAQ question="Who made the website?" answer="Brock Lumbard of course" >
+        </FAQ>
+        <FAQ question="Who made the website?" answer="Brock Lumbard of course" >
+        </FAQ>
+        </div>
+        </div>
+        </Container>
+
         );
     }
 }

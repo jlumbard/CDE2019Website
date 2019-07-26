@@ -1,0 +1,58 @@
+.faqRow .col{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+    height: inherit;
+}
+.faqRow{
+    height: 7vh;
+    font-size: 1.3em;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.answer, .question{
+    clear: none;
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    height: 7vh;
+    color: grey;
+    transition: all 1.4s linear;
+    overflow: hidden;
+}
+.answer{
+    right: 0;
+    z-index: 2;
+    text-align:right;
+    width: 0% !important;
+    overflow: hidden;
+    white-space: nowrap;
+    direction: rtl;
+    padding-right: 0.4em;
+}
+.question{
+    float: left;
+    width:100% !important;
+    z-index: 1;
+    background-color: rgba(60,60,60,0.7);
+    white-space: nowrap;
+    padding-left: 0.4em;
+}
+
+.questionCol{
+    width: 100%;
+}
+.questionAnswer{
+    display: inline-block;
+}
+
+.questionCol:hover .answer{
+    width: 100% !important;
+}
+
+.questionCol:hover .question{
+    width: 0% !important;
+}

@@ -32,8 +32,8 @@ class App extends React.Component {
 
      {/*I'm like 90% sure the below is bad practice(race conditions?) but I don't know how React works lol */}
       <NaturalNavbar language={this.state.language}>
-        <a href="/" className={this.state.language === "English" ? "activeLanguage" : "language"} onClick={() => this.changeLanguage("English")}>English</a>
-        <a href="/ "className={this.state.language === "French" ? "activeLanguage" : "language"} onClick={() => this.changeLanguage("French")}>French</a>
+        <span href="/" className={this.state.language === "English" ? "activeLanguage" : "language"} onClick={() => this.changeLanguage("English")}>English</span>
+        <span href="/ "className={this.state.language === "French" ? "activeLanguage" : "language"} onClick={() => this.changeLanguage("French")}>French</span>
       </NaturalNavbar>
 
         <Switch>

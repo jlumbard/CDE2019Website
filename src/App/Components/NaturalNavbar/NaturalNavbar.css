@@ -12,3 +12,10 @@
 .dropdown-toggle{
     font-size: 1.3em;
 }
+.navbar .dropdown-menu span{
+    padding: 10px;
+}
+.navbar .dropdown-menu span{
+    padding: 10px;
+    cursor: default;
+}

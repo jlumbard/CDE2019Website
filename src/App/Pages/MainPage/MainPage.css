@@ -92,7 +92,6 @@ a:hover{
     font-size: 2em !important;
     color: white;
   }
-
   
 hr{
     border-top: 2px solid rgba(255,255,255,1)  !important;
@@ -113,6 +112,8 @@ hr{
     margin-left: 0px !important;
     margin-right:0px !important;
     max-width: 100% !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
   .col{
     padding-left:0px !important;
@@ -123,4 +124,15 @@ hr{
   }
   .SocMedDummy{
     display: block;
+  }
+  .FAQs{
+    background-image: url(../../img/CDE1.jpg);
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    overflow: hidden;
+    
+  }
+  .FAQCover{
+    background-color: rgba(61, 60, 60, 0.9);
   }

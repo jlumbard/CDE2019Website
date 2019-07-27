@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import logo from 'App/img/logo.png' //would love to learn why these relative links suck so much
 import './NaturalNavbar.css'
+import {Link} from "react-router-dom";
 
 class NaturalNavbar extends React.Component{
     
@@ -29,8 +30,8 @@ class NaturalNavbar extends React.Component{
             <NavDropdown.Item href="#action/3.4">Doubletree by Hilton</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item className="red" href="/contact"> {this.props.language === "English" ? "Contact Us" : "Contactez-Nous"}</NavDropdown.Item>
-            <NavDropdown.Item href="/History">{this.props.language === "English" ? "History" : "Histoire"}</NavDropdown.Item>
-            <NavDropdown.Item href="/Contact">{this.props.language === "English" ? "Our Team" : "L'Equipe"}</NavDropdown.Item>
+            <NavDropdown.Item ><Link to="/History/">{this.props.language === "English" ? "History" : "Histoire"}</Link></NavDropdown.Item>
+            <NavDropdown.Item ><Link to="/Contact/">{this.props.language === "English" ? "Our Team" : "L'Equipe"}</Link></NavDropdown.Item>
             <NavDropdown.Divider />
             {this.props.children}
         </NavDropdown>

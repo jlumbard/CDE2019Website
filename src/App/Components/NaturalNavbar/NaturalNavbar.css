@@ -19,6 +19,7 @@
     padding: 10px;
     cursor: default;
 }
-.dropdown-item a{
-    color: rgb(128,128,128);
+.navbar .dropdown-menu a a{
+    color: rgb(128,128,128) !important;
+    padding: 0;
 }

@@ -29,8 +29,7 @@ class NaturalNavbar extends React.Component{
             <NavDropdown.Item href="#action/3.3">Ivey Business School</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.4">Doubletree by Hilton</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item className="red" href="/contact"> {this.props.language === "English" ? "Contact Us" : "Contactez-Nous"}</NavDropdown.Item>
-            <NavDropdown.Item ><Link to="/History/">{this.props.language === "English" ? "History" : "Histoire"}</Link></NavDropdown.Item>
+            <NavDropdown.Item ><Link className = "dropdown-item" to="/History/">{this.props.language === "English" ? "History" : "Histoire"}</Link></NavDropdown.Item>
             <NavDropdown.Item ><Link to="/Contact/">{this.props.language === "English" ? "Our Team" : "L'Equipe"}</Link></NavDropdown.Item>
             <NavDropdown.Divider />
             {this.props.children}

@@ -6,6 +6,7 @@ import Sponsors from './Pages/Sponsors/Sponsors.js';
 import MainPage from  './Pages/MainPage/MainPage.js';
 import Footer from './Components/Footer/Footer.js';
 import Contact from './Pages/Contact/Contact.js';
+import Schedule from './Pages/Schedule/Schedule.js';
 
 class App extends React.Component {
   constructor(props){
@@ -50,6 +51,12 @@ class App extends React.Component {
           path="/Contact/"
           render={props => <Contact language = {this.state.language}/>}
           />
+
+          <Route
+          path="/Schedule/"
+          render={props => <Schedule language = {this.state.language}/>}
+          />
+
         </Switch>
 
       <Footer/>

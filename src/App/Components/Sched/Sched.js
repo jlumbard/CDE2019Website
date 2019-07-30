@@ -41,6 +41,7 @@ const style = theme => ({
   },
 });
 
+//todo: make this today, probs just get rid of the restprobs and manual set startdate? 
 const TimeTableCellBase = ({ classes, ...restProps }) => {
   const { startDate } = restProps;
   const date = new Date(startDate);
